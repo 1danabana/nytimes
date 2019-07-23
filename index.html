@@ -11,9 +11,58 @@
 </head>
 <body>
     <!-- Jumbotron ID: logo -->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">New York Times Article Search</h1>
+          <p class="lead"></p>
+        </div>
+      </div>
     <!-- panel -->
         <!-- Form -->
             <!-- input ID: searchTeam -->
+            <div class="card">
+                <div class="card-header">
+                  Search Parameters
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Search Term:</h5>
+                  <div class="form-group">
+                    <label for="searchTerm"></label>
+                    <input type="term" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
+                    <small id="searchTerm" class="form-text text-muted"></small>
+                  </div>
+                  <p class="card-text"></p>
+                  <h5 class="card-title">Number of Records to Retrieve:</h5>
+                  <p class="card-text">
+                    <div class="form-group">
+                        <label for="exampleFormControlSelect1"></label>
+                        <select class="form-control" id="exampleFormControlSelect1">
+                          <option>1</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                        </select>
+                      </div>
+                  </p>
+                  <h5 class="card-title">Start Year (Optional)</h5>
+                  <div class="form-group">
+                    <label for="searchTerm"></label>
+                    <input type="term" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
+                    <small id="startYear" class="form-text text-muted"></small>
+                  </div>
+                  <p class="card-text"></p>
+                  <h5 class="card-title">End Year (Optional)</h5>
+                  <div class="form-group">
+                    <label for="endYear"></label>
+                    <input type="term" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
+                    <small id="searchTerm" class="form-text text-muted"></small>
+                  </div>
+                  <p class="card-text"></p>
+                  <a href="#search" class="btn btn-primary">Search</a>
+                  <a href="#clearResults" class="btn btn-primary">Clear Results</a>
+                </div>
+              </div>
             <!-- select ID: numbRecords -->
             <!-- input ID: startYear -->
             <!-- unput ID: endYear -->
